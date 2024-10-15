@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- START HEADER -->
+    <header class="navbar-hero">
+      <nav class="navbar" id="navigation">
+        <div class="container-active">
+          <div class="logo"><a href="#"> Start Bootstrap</a></div>
+          <div class="links">
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+          <div class="hamburger-button">
+            <span>MENU</span>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="hidden">
+          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#about">ABOUT</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <div class="image">
+          <img src="assets/image/Multitasking-bro (1).png" alt="Man working" />
+        </div>
+        <div class="text-icon">
+          <div class="big-text">
+            <h1>START BOOTSTRAP</h1>
+          </div>
+          <div class="icon">
+            <div class="line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line"></div>
+          </div>
+          <div class="little-text">
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- END HEDER -->
+
+    <!-- START MAIN -->
+    <main>
+      <!-- SECTION 1 START  -->
+      <section id="portfolio" class="portfolio-section">
+        <div class="heading-text-icon">
+          <span>PORTFOLIO</span>
+          <div class="icon dark-icon">
+            <div class="line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="portfolio-image grid-col-3">
+          <div class="image-box">
+            <img src="assets/image/cabin.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="image-box">
+            <img src="assets/image/cake.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="image-box">
+            <img src="assets/image/safe.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="image-box">
+            <img src="assets/image/submarine.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="image-box">
+            <img src="assets/image/game.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="image-box">
+            <img src="assets/image/circus.png" alt="" />
+            <div class="hovered"><i class="fa-solid fa-plus"></i></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 1 END  -->
+
+      <!-- SECTION 2 ABOUT START  -->
+      <section id="about" class="about">
+        <div class="about-heading-text-icon">
+          <span>ABOUT</span>
+          <div class="icon">
+            <div class="line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="left-text">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </div>
+          <div class="right-text">
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </div>
+        </div>
+        <div class="free-download">
+          <i class="fa-solid fa-download"></i>
+          <span>Free Download!</span>
+        </div>
+      </section>
+      <!-- SECTION 2 ABOUT END  -->
+
+      <!-- SECTION 3 CONTACT  INTUP BOX START -->
+      <section id="contact" class="contact">
+        <div class="contact-heading-text-icon">
+          <span>CONTACT</span>
+          <div class="icon dark-icon">
+            <div class="line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line"></div>
+          </div>
+        </div>
+        <form action="">
+          <div class="input-box">
+            <input
+              class="input-relative"
+              id="name"
+              type="text"
+              placeholder=" "
+              required
+            />
+            <label class="placeholder">Full Name </label>
+          </div>
+          <div class="input-box">
+            <input
+              class="input-relative"
+              id="email"
+              pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"
+              type="email"
+              placeholder=" "
+              required
+            />
+            <label class="placeholder">Mail Address </label>
+          </div>
+          <div class="input-box">
+            <input
+              class="input-relative"
+              id="phone"
+              type="tel"
+              placeholder=" "
+              required
+            />
+            <label class="placeholder">Phone Number </label>
+          </div>
+          <div class="input-box">
+            <textarea
+              class="input-relative"
+              type="text"
+              style="height: 10rem"
+              placeholder=" "
+            ></textarea>
+            <label class="placeholder">Message</label>
+          </div>
+          <div class="input-box button">
+            <button type="submit" class="send">Send</button>
+          </div>
+        </form>
+      </section>
+      <!-- SECTION 3 CONTACT AND INPUTBOX END  -->
+    </main>
+    <!-- MAIN END  -->
+
+    <!-- FOOTER START  -->
+    <footer>
+      <!-- START ADRESS AND SOCIAL SECTION  -->
+      <div class="adress-social-about">
+        <div class="location section">
+          <h1>LOCATION</h1>
+          <span class="adress section">
+            2215 John Daniel Drive Clark, MO 65243
+          </span>
+        </div>
+        <div class="text-social-icon section">
+          <h1>SOCIAL</h1>
+          <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+        <div class="about-freelancer section">
+          <h1>About Freelancer</h1>
+          <span
+            >Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="#">Start Bootstrap</a>.</span
+          >
+        </div>
+      </div>
+      <!-- END ADDRESS SOCIAL SECTION  -->
+
+      <!-- START COPYWRITE SECTION -->
+      <div class="copywrite">
+        <p>Copyright &copy; Your Website 2023</p>
+      </div>
+      <!-- END COPYWRITE SECTION  -->
+    </footer>
+    <!-- FOOTER END  -->
+    <script src="assets/script/script.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        // console.log(e);
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>
